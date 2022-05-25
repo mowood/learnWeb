@@ -170,7 +170,7 @@ li {
     left: 0;
 }
 
-.arrow-01 {
+.hero-arrow-01 {
     position: absolute;
     top: 464px;
     right: 0;
@@ -179,7 +179,7 @@ li {
     transform: rotate(45deg);
 }
 
-.arrow-02 {
+.hero-arrow-02 {
     position: absolute;
     top: 25px;
     right: 0;
@@ -200,10 +200,60 @@ li {
 
 .skills-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .skills-item {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-width: 330px;
     padding: 60px 40px;
+}
+
+.skills-header {
+    margin-bottom: 19px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 42px;
+}
+
+.skills-descr {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.skills-image {
+    position: relative;
+    margin-bottom: 58px;
+}
+
+.skills-arrow-01 {
+    position: absolute;
+    top: 73px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.skills-arrow-02 {
+    position: absolute;
+    top: 13.7px;
+    right: 0;
+    bottom: 0;
+    left: 74px;
+}
+
+.skills-arrow-03 {
+    position: absolute;
+    top: 42px;
+    right: 0;
+    bottom: 0;
+    left: 36px;
 }
