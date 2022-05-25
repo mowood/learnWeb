@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Epilogue";
+    src: local("Epilogue-SemiBold"),
+        url("../fonts/Epilogue/Epilogue-SemiBold.woff2") format("woff2"),
+        url("../fonts/Epilogue/Epilogue-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Epilogue";
+    src: local("Epilogue-Regular"),
+        url("../fonts/Epilogue/Epilogue-Regular.woff2") format("woff2"),
+        url("../fonts/Epilogue/Epilogue-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Mulish-Bold";
+    src: local("Mulish-Bold"),
+        url("../fonts/Mulish/Mulish-Bold.woff2") format("woff2"),
+        url("../fonts/Mulish/Mulish-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Mulish-SemiBold";
+    src: local("Mulish-SemiBold"),
+        url("../fonts/Mulish/Mulish-SemiBold.woff2") format("woff2"),
+        url("../fonts/Mulish/Mulish-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Mulish-Regular";
+    src: local("Mulish-Regular"),
+        url("../fonts/Mulish/Mulish-Regular.woff2") format("woff2"),
+        url("../fonts/Mulish/Mulish-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 0 auto;
+    padding: 27px 0 27px 0;
+}
+
+.logo {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-link {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2D2D2D;
+    border-bottom: 1px solid #2D2D2D;
+}
+
+/* HERO CONTAINER */
+
+.hero {
+    display: flex;
+    padding: 78px 0;
+}
+
+.hero-left {
+    width: 465px;
+    margin-right: 130px;
+}
+
+.hero-subtitle {
+    padding-top: 88px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hero-header {
+    margin-bottom: 50px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 102px;
+}
+
+.hero-descr {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.hero-right {
+    position: relative;
+}
+
+.hero-photo {
+    position: relative;
+    left: 63px;
+    width: 409px;
+    height: 550px;
+}
+
+.rectangle-red {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    bottom: 0;
+    left: 360px;
+}
+
+.rectangle-green {
+    position: absolute;
+    top: 355px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.arrow-01 {
+    position: absolute;
+    top: 464px;
+    right: 0;
+    bottom: 0;
+    left: 415px;
+    transform: rotate(45deg);
+}
+
+.arrow-02 {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    left: 80px;
+    transform: rotate(90deg);
+}
+
+.clients {
+    padding: 67px 100px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skills-item {
+    text-align: center;
+    min-width: 330px;
+    padding: 60px 40px;
+}
