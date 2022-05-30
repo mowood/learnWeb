@@ -311,6 +311,53 @@ li {
 
 /* TESTMONIALS */
 
-.section-testmonials {
-    padding: 122px 100px 147px 100px;
+.testmonials-list {
+    display: flex;
+}
+
+.testmonials-item {
+    padding: 25px;
+    background-color: #F3F3F3;
+    margin-right: 45px;
+}
+
+.testmonials-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.testmonials-photo {
+    border-radius: 50%;
+}
+
+.testmonials-header {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+}
+
+.testmonials-descr {
+    margin-bottom: 139px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.testmonials-name {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.testmonials-company {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
 }
